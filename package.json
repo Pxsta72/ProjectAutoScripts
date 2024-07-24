@@ -4,7 +4,7 @@
   "description": "project auto scripts",
   "main": "Scripts.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node Scripts.js"
   },
   "repository": {
     "type": "git"
