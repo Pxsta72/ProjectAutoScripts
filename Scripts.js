@@ -30,5 +30,9 @@ async function SetUp() {
     }
 }
 
+app.get('/', async (_, res) => {
+    res.send('Project Auto #1')
+})
+
 SetUp()
 app.listen(3000)
