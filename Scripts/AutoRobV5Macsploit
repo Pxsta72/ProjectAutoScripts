@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/45e35a8e3b4d9ef7de716f1f353502c9.lua"))()
+game.Players.LocalPlayer:Kick('Use Regular V5 Instead Of This, It Supports Macsploit Now')
