@@ -1,4 +1,3 @@
--- we hate niggers
 const express = require('express')
 
 const app = express()
