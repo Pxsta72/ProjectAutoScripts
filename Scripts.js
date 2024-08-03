@@ -15,8 +15,10 @@ async function ReadFile(file) {
 }
 
 app.get('*', async (req, res) => {
-    const page = req.path.substring(1)
-    res.send(await ReadFile(page));
+    try {
+        const page = req.path.substring(1)
+        res.send(await ReadFile(page));
+    } catch (error) { console.log(error) }
 });
 
 app.listen(3000)
