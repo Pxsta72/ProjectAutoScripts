@@ -10,6 +10,7 @@ async function ReadFile(file) {
             accept: 'application/vnd.github+json'
         }
     })).json()
+    if (fileData.status == '404') { return 'invalid script name'}
     return Buffer.from(fileData['content'], 'base64').toString('utf-8');
 }
 
@@ -30,9 +31,9 @@ async function SetUp() {
     }
 }
 
-app.get('/', async (_, res) => {
-    res.send('Project Auto #1')
-})
+app.get('*', async (req, res) => {
+    const page = req.path.substring(1)
+    res.send(await ReadFile(page));
+});
 
-SetUp()
 app.listen(3000)
