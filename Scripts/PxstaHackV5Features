@@ -1,171 +1,171 @@
 Player Tab:
-    Player Speed:
-        Toggled
-        Disable On Cuff
-        Value, 10 - 180
+    Player Speed: - the walkspeed of the player
+        Toggled - toggles speed
+        Disable On Cuff - speed value set to 0 when arrested
+        Value, 10 - 180 - the speed value
 
-    Infinite Jump:
-        Toggled
-        Disable On Cuff
+    Infinite Jump: - lets you jump in the air
+        Toggled - toggles infinite jump
+        Disable On Cuff - disables infinite jump when you get arrested
 
-    Jump Power:
-        Toggled
-        Disable On Cuff
-        Value, 20 - 500
+    Jump Power: - the height of your jump
+        Toggled - toggles jump power
+        Disable On Cuff - jump power is set back to default (50) when arrested
+        Value, 20 - 500 - the jump power value
 
     Actions:
-        Custom Punch Time
-          Punch Time, 0 - 0.5
-        Instant Circle
-        Infinite Crawl
-        Infinite Roll
-        Freeze Roll
-        Custom Roll Time
-          Roll Time, 0.1 - 5
-        Open Parachute
-        Open Glider
+        Custom Punch Time - toggles using custom punch speed
+          Punch Time, 0 - 0.5 - the time it takes to punch
+        Instant Circle - removes the wait from the "E" circles
+        Infinite Crawl - no crawl cooldown
+        Infinite Roll - no roll cooldown
+        Freeze Roll - rolling wont move you
+        Custom Roll Time - toggles using custom roll time
+          Roll Time, 0.1 - 5 - time it takes to roll
+        Open Parachute - opens your parachute
+        Open Glider - opens your glider
 
     Effects:
-        Always Juiced
-        Fake Keycard
-        Anti AFK
-        Anti Ragdoll
-        Anti Fall Damage
-        Anti Parachute
-        Anti Taze
+        Always Juiced - always have the juice effect
+        Fake Keycard - can open keycard doors (except for oil rig), item wont show in inventory
+        Anti AFK - prevents afk kicks
+        Anti Ragdoll - prevents ragdolls from falling
+        Anti Fall Damage - prevents damage from falling
+        Anti Parachute - prevents the slow fall effect
+        Anti Taze - tazers wont work on you
 
     Other:
-        Force Load World
-        Disable Cheat Checks
-        Force Load Players
-        Respawn
-        Choose Spawn
-        Open Cameras
+        Force Load World - prevent load from unloading
+        Disable Cheat Checks - disables the client anticheat
+        Force Load Players - loads every player in the game
+        Respawn - kills you
+        Choose Spawn - opens the choose spawn menu
+        Open Cameras - opens the camera menu
     
     Disablers:
-        Disable Damagers
-        Disable Spotlight
-        Disable Mil Turrets
-        Disable Home Turrets
-        Disable Other Turrets
+        Disable Damagers - disables pretty much everything that damages you
+        Disable Spotlight - prevents the prison spotlight from being able to see you
+        Disable Mil Turrets - disables the military base turrets
+        Disable Home Turrets - disables the turrets in homes
+        Disable Other Turrets - disables cargo ship and oil rig turrets
     
-    No Clip:
-        No Clip
-        Set Y level
+    No Clip: - must have nothing above you to work, might break and teleport you in the sky instead
+        No Clip - teleports you 20m forward and will no clip through walls
+        Set Y level - sets the players Y level, no clips through anything in the way
 
-    Field Of View:
-        Toggled
-        Value, 50 - 120
+    Field Of View: - the cameras fov
+        Toggled - toggles using the custom fov value
+        Value, 50 - 120 - the fov value, 70 is default
     
 Combat Tab:
-    Silent Aim:
-        Toggled
-        Use FOV Circle
-          Show FOV Circle
-          Fov Rainbow Colors
-          FOV Size, 50 - 800
-        Predict Velocity
-        Target Boss
-        Target NPC
-        Respect Walls
-        Max Distance, 100 - 1000
+    Silent Aim: - makes bullets go to nearest target
+        Toggled - toggles silent aim
+        Use FOV Circle - toggles wether to use a fov circle for aiming
+          Show FOV Circle - shows fov circle effect
+          Fov Rainbow Colors - rainbow colors
+          FOV Size, 50 - 800 - the fov range
+        Predict Velocity - predicts player movement, helps hit players who are moving fast
+        Target Boss - should the silent aim hit the ceo
+        Target NPC - should the silent aim hit npcs
+        Respect Walls - if toggled silent aim will not go through walls
+        Max Distance, 100 - 1000 - the max distance between you and the target the silent aim will work at
 
     Guns:
-        Get All Guns
-        Loop Drop Guns
-        Get Gun
-        Toggle Gun Store
-        Guns On Respawn
+        Get All Guns - grab every gun you own
+        Loop Drop Guns - loop drop every gun you own
+        Get Gun - gets a gun, will buy it if you dont own it
+        Toggle Gun Store - toggle the gun store gui
+        Guns On Respawn - get every gun you own on respawn
     
     Gun Mods:
-        Auto Fire
-        Anti Recoil
-        No Bullet Spread
-        Rapid Fire
-        Shorter Reload
+        Auto Fire - can hold left click to shoot
+        Anti Recoil - prevents recoil
+        No Bullet Spread - bullets always hit exactly where you aim
+        Rapid Fire - shoot really fast, anticheat stops most damage with this
+        Shorter Reload - drop and grab new gun on reload for a faster reload
 
-    Tire Pop Aura:
-        Toggled
-        Target Teammates
-        Target Empty
-        Pop Distance, 5 - 500
+    Tire Pop Aura: - pops tires and breaks helis
+        Toggled - toggles tire pop aura
+        Target Teammates - target vehicles driven by teammates
+        Target Empty - target empty vehicles
+        Pop Distance, 5 - 500 - the max distance to pop tires from
 
-    Arrest Aura:
-        Toggled
-        Eject Distance, 5 - 20
+    Arrest Aura: - arrests players, must have handcuffs equipped
+        Toggled - toggles arrest aura
+        Eject Distance, 5 - 20 - max arrest distance
 
-    Taze Aura:
-        Toggled
-        Taze Distance, 5 - 300
+    Taze Aura: - tazes players, doesnt need tazer equipped
+        Toggled - toggles taze aura
+        Taze Distance, 5 - 300 - max distance to taze from
 
-    Dropped Cash Aura:
-        Toggled
-        Collect Distance, 5 - 20
+    Dropped Cash Aura: - collects dropped cash around you
+        Toggled - toggles cash aura
+        Collect Distance, 5 - 20 - max distance to grab cash from
 
 Visual Tab:
-    Markers:
-        Teammate Markers
-        Criminal Markers
-        Police Markers
-        Prisoner Markers
-        Criminal Color
-        Bounty Color
-        Crate Markers
-        NPC Markers
-        Ceo Marker
+    Markers: - the markers jb has
+        Teammate Markers - this is what jb normally does
+        Criminal Markers - show criminal markers
+        Police Markers - show police markers
+        Prisoner Markers - show prisoner markers
+        Criminal Color - criminal markers will be red
+        Bounty Color - cirminals with bounties will have purple markers
+        Crate Markers - show a marker for crates
+        NPC Markers - show a marker for npcs
+        Ceo Marker - show a marker for the ceo
     
-    Body ESP:
-        Highlight Criminals
-        Highlight Police
-        Highlight Prisoners
-        Use Team Colors
-        Use Rainbow Colors
+    Body ESP: - highlights
+        Highlight Criminals - show criminals
+        Highlight Police - show police
+        Highlight Prisoners - show prisoners
+        Use Team Colors - use the team colors
+        Use Rainbow Colors - use rainbow colors
 
     ESP:
-        Show Name
-        Show Distance
-        Show Health
-        Show Box
-        Criminal ESP
-        Police ESP
-        Prisoner ESP
-        Use Team Colors
-        Use Rainbow Colors
-        Outline Text
+        Show Name - show the players display name
+        Show Distance - show distance between the player and you
+        Show Health - show the players health
+        Show Box - show a box around the player
+        Criminal ESP - show criminals
+        Police ESP - show police
+        Prisoner ESP - show prisoners
+        Use Team Colors - use the team colors
+        Use Rainbow Colors - use rainbow colors
+        Outline Text - outline the text
     
 Vehicle Tab:
-    Vehicle Flight:
-        Toggled
-        Speed, 100 - 550
+    Vehicle Flight: - fly in a vehicle
+        Toggled - toggles flight
+        Speed, 100 - 550 - the flight speed
     
-    Heli Flight:
-        Toggled
-        Speed, 100 - 10000
+    Heli Flight: - fly in helis
+        Toggled - toggles flight
+        Speed, 100 - 10000 - the flight speed
     
     Vehicle Mods:
-        Custom Height
-          Height Value, 3 - 300
-        Custom Turn Speed
-          Turn Speed Value, 1 - 15
-        Anti Vehicle Break
-        Inf heli Height
-        Inf Drone Height
+        Custom Height - the vehicles height
+          Height Value, 3 - 300 - the height value
+        Custom Turn Speed - the vehicles turn speed
+          Turn Speed Value, 1 - 15 - turn speed value
+        Anti Vehicle Break - prevents vehicle from breaking or from its tires being popped
+        Inf heli Height - no height limit in helis
+        Inf Drone Height - drone has no heigh limit
 
     Vehicle Other:
-        Infinite Nitro
-        Custom Plate Text
-          Plate Text
+        Infinite Nitro - never run out of nitro
+        Custom Plate Text - liscence plate text, (gets tagged a lot)
+          Plate Text - the liscence plate text
 
-    Rope Length:
-        Toggled
-        Length, 3 - 500
+    Rope Length: - the length of your helis / tow trucks rope
+        Toggled - toggles using custom length
+        Length, 3 - 500 - the length value, default is 30
 
-    Insta Rope Connect:
-        Toggled
-        Distance, 20 - 150
+    Insta Rope Connect: - rope will connect to vehicles instantly
+        Toggled - toggles insta connect
+        Distance, 20 - 150 - max distance from vehicles you conenct from
 
 Robbery Tab:
-    Robbery Status:
+    Robbery Status: - the status of every robbery, open / closed / in progress
         Mansion
         Museum
         Bank
@@ -184,114 +184,114 @@ Robbery Tab:
         Crates In Map
 
     Mansion:
-        Disable Ceo
-        NPC Shoot Ceo
-        Kill Npcs
-        Break Npcs
+        Disable Ceo - prevents most ceo attacks
+        NPC Shoot Ceo - npcs will shoot the ceo for very fast mansion completion
+        Kill Npcs - instantly kill the mansion npcs
+        Break Npcs - prevent mansion npcs from targeting you
 
     Museum:
-        Collect items Aura
-        Auto Place TNT
-        Auto Solve Puzzle
-        Break Puzzle
+        Collect items Aura - collect items in museum near you
+        Auto Place TNT - auto place dynamite if someone else places the other one
+        Auto Solve Puzzle - solve the museum puzzle
+        Break Puzzle - spin the puzzle pieces really fast so its impossible to complete
 
     Bank:
-        Auto Open Vault
-        Auto Place TNT
+        Auto Open Vault - open vault door when inside bank
+        Auto Place TNT - place tnt on bank escape when inside bank
     
     Crater Bank:
-        Auto Open Vault
-        Auto Place TNT
+        Auto Open Vault - open vault door when inside bank
+        Auto Place TNT - place tnt on bank escape when inside bank
 
     Jewelry Store:
-        Auto Punch Boxes
-        Collect Jewel Aura
+        Auto Punch Boxes - auto punch jewelry cases when facing them
+        Collect Jewel Aura - auto collect jewels in jewelry floors
     
     Casino:
-        Collect Cash Aura
-        Hack Computer Aura
-        Auto Open Door
-        Auto Hack Vaults
-        Auto Call Elevator
-        Break Elevator
-        Show Code
+        Collect Cash Aura - auto collect nearby casino cash
+        Hack Computer Aura - auto hack neary casino computers
+        Auto Open Door - open casino door when nearby
+        Auto Hack Vaults - hack casino vaults when security is disabled and your nearby
+        Auto Call Elevator - automatically call and press elevator buttons
+        Break Elevator - loop presses vault floor button so no one can use elevator
+        Show Code - shows the casino code
 
     Tomb:
-        Disable Darts
-        Auto Complete Room 2
+        Disable Darts - disables tomb dart damage
+        Auto Complete Room 2 - auto do room 2 (pillars room) when you enter the room
     
     Cargo Ship:
-        Grab Crate
-        Sell Crate
+        Grab Crate - grab a cargo ship crate and teleport it to you
+        Sell Crate - teleports the cargo ship crate you have to the sell location
     
     Cargo Plane:
-        Grab Crate Aura
-        Auto Open Door
-        Grab Crate
+        Grab Crate Aura - grabs nearby cargo plane crates
+        Auto Open Door - auto open the plane door when you have a crate
+        Grab Crate - teleports to plane and grabs a crate
     
     Cargo Train:
-        Auto Open Vault
+        Auto Open Vault - open vault door when nearby
 
     Passenger Train:
-        Grab Item Aura
-        Grab Items
+        Grab Item Aura - grabs nearby items
+        Grab Items - grabs items from the passenger train
 
     Power Plant:
-        Auto Solve Puzzle
-        Instant Solve Puzzle
+        Auto Solve Puzzle - auto solves the flow puzzle when the gui is open
+        Instant Solve Puzzle - will instantly solve the puzzle
     
     Oil Rig:
-        Auto Solve Puzzle
-        Instant Solve Puzzle
-        Kill Npcs
-        Break Npcs
+        Auto Solve Puzzle - auto solves the flow puzzle when the gui is open
+        Instant Solve Puzzle - will instantly solve the puzzle
+        Kill Npcs - instantly kills oil rig npcs
+        Break Npcs - prevent oil rig npcs from targeting you
 
     Gas Station:
-        Rob Aura
+        Rob Aura - auto rob gas station when nearby
 
     Donut Store:
-        Rob Aura
+        Rob Aura - auto rob donut store when nearby
     
     Crate:
-        Open Aura
-        Kill Npcs
-        Break Npcs
+        Open Aura - auto open crate when nearby
+        Kill Npcs - auto kill crate npcs
+        Break Npcs - prevent crate npcs from targeting you
 
 Teleport Tab:
     Player Teleports:
-        Teleport Location
-        Teleport
+        Teleport Location - location to teleport to
+        Teleport - teleport to location
     
     Vehicle Teleports:
-        Teleport Location
-        Teleport
+        Teleport Location - location to teleport to
+        Teleport - teleport to location
 
 C4 Tab:
     C4 Settings:
-        C4 Shape
-        Random C4 Amount
-        C4 Amount
-        Target Closest Player
-        Select Player
+        C4 Shape - the shape of the c4
+        Random C4 Amount - use a random amount of c4
+        C4 Amount - the amount of c4 to use
+        Target Closest Player - target the player closest to you
+        Select Player - select the player to target
 
     C4 Control:
-        Attach C4
-        Detonate C4
-        Spawn C4
+        Attach C4 - attach c4 to target
+        Detonate C4 - detonate all c4 which gives you c4 back
+        Spawn C4 - spawn c4 at you
 
 Script Tab:
     Main:
-        Terminate Script
+        Terminate Script - terminates the script
     
     Configs:
-        Reload Config List
-        Select Config
-        Load Config
-        Config Name
-        Save Config
+        Reload Config List - reload the config list, use if you add a new config
+        Select Config - the config to load
+        Load Config - load config
+        Config Name - the name of the config to save
+        Save Config - save config
 
     Server Hop:
-        Execute On Rejoin
-        Rejoin Server
-        Use Small Servers
-        Join Random Server
+        Execute On Rejoin - execute the script on rejoin
+        Rejoin Server - rejoin the server your currently in
+        Use Small Servers - use small servers with server hop
+        Join Random Server - join a random server
