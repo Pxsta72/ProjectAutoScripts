@@ -1,0 +1,297 @@
+Player Tab:
+    Player Speed:
+        Toggled
+        Disable On Cuff
+        Value, 10 - 180
+
+    Infinite Jump:
+        Toggled
+        Disable On Cuff
+
+    Jump Power:
+        Toggled
+        Disable On Cuff
+        Value, 20 - 500
+
+    Actions:
+        Custom Punch Time
+          Punch Time, 0 - 0.5
+        Instant Circle
+        Infinite Crawl
+        Infinite Roll
+        Freeze Roll
+        Custom Roll Time
+          Roll Time, 0.1 - 5
+        Open Parachute
+        Open Glider
+
+    Effects:
+        Always Juiced
+        Fake Keycard
+        Anti AFK
+        Anti Ragdoll
+        Anti Fall Damage
+        Anti Parachute
+        Anti Taze
+
+    Other:
+        Force Load World
+        Disable Cheat Checks
+        Force Load Players
+        Respawn
+        Choose Spawn
+        Open Cameras
+    
+    Disablers:
+        Disable Damagers
+        Disable Spotlight
+        Disable Mil Turrets
+        Disable Home Turrets
+        Disable Other Turrets
+    
+    No Clip:
+        No Clip
+        Set Y level
+
+    Field Of View:
+        Toggled
+        Value, 50 - 120
+    
+Combat Tab:
+    Silent Aim:
+        Toggled
+        Use FOV Circle
+          Show FOV Circle
+          Fov Rainbow Colors
+          FOV Size, 50 - 800
+        Predict Velocity
+        Target Boss
+        Target NPC
+        Respect Walls
+        Max Distance, 100 - 1000
+
+    Guns:
+        Get All Guns
+        Loop Drop Guns
+        Get Gun
+        Toggle Gun Store
+        Guns On Respawn
+    
+    Gun Mods:
+        Auto Fire
+        Anti Recoil
+        No Bullet Spread
+        Rapid Fire
+        Shorter Reload
+
+    Tire Pop Aura:
+        Toggled
+        Target Teammates
+        Target Empty
+        Pop Distance, 5 - 500
+
+    Arrest Aura:
+        Toggled
+        Eject Distance, 5 - 20
+
+    Taze Aura:
+        Toggled
+        Taze Distance, 5 - 300
+
+    Dropped Cash Aura:
+        Toggled
+        Collect Distance, 5 - 20
+
+Visual Tab:
+    Markers:
+        Teammate Markers
+        Criminal Markers
+        Police Markers
+        Prisoner Markers
+        Criminal Color
+        Bounty Color
+        Crate Markers
+        NPC Markers
+        Ceo Marker
+    
+    Body ESP:
+        Highlight Criminals
+        Highlight Police
+        Highlight Prisoners
+        Use Team Colors
+        Use Rainbow Colors
+
+    ESP:
+        Show Name
+        Show Distance
+        Show Health
+        Show Box
+        Criminal ESP
+        Police ESP
+        Prisoner ESP
+        Use Team Colors
+        Use Rainbow Colors
+        Outline Text
+    
+Vehicle Tab:
+    Vehicle Flight:
+        Toggled
+        Speed, 100 - 550
+    
+    Heli Flight:
+        Toggled
+        Speed, 100 - 10000
+    
+    Vehicle Mods:
+        Custom Height
+          Height Value, 3 - 300
+        Custom Turn Speed
+          Turn Speed Value, 1 - 15
+        Anti Vehicle Break
+        Inf heli Height
+        Inf Drone Height
+
+    Vehicle Other:
+        Infinite Nitro
+        Custom Plate Text
+          Plate Text
+
+    Rope Length:
+        Toggled
+        Length, 3 - 500
+
+    Insta Rope Connect:
+        Toggled
+        Distance, 20 - 150
+
+Robbery Tab:
+    Robbery Status:
+        Mansion
+        Museum
+        Bank
+        Crater Bank
+        Jewelry Store
+        Casino
+        Tomb
+        Cargo Ship
+        Cargo Plane
+        Cargo Train
+        Passenger Train
+        Power Plant
+        Oil Rig
+        Gas Station
+        Donut Store
+        Crates In Map
+
+    Mansion:
+        Disable Ceo
+        NPC Shoot Ceo
+        Kill Npcs
+        Break Npcs
+
+    Museum:
+        Collect items Aura
+        Auto Place TNT
+        Auto Solve Puzzle
+        Break Puzzle
+
+    Bank:
+        Auto Open Vault
+        Auto Place TNT
+    
+    Crater Bank:
+        Auto Open Vault
+        Auto Place TNT
+
+    Jewelry Store:
+        Auto Punch Boxes
+        Collect Jewel Aura
+    
+    Casino:
+        Collect Cash Aura
+        Hack Computer Aura
+        Auto Open Door
+        Auto Hack Vaults
+        Auto Call Elevator
+        Break Elevator
+        Show Code
+
+    Tomb:
+        Disable Darts
+        Auto Complete Room 2
+    
+    Cargo Ship:
+        Grab Crate
+        Sell Crate
+    
+    Cargo Plane:
+        Grab Crate Aura
+        Auto Open Door
+        Grab Crate
+    
+    Cargo Train:
+        Auto Open Vault
+
+    Passenger Train:
+        Grab Item Aura
+        Grab Items
+
+    Power Plant:
+        Auto Solve Puzzle
+        Instant Solve Puzzle
+    
+    Oil Rig:
+        Auto Solve Puzzle
+        Instant Solve Puzzle
+        Kill Npcs
+        Break Npcs
+
+    Gas Station:
+        Rob Aura
+
+    Donut Store:
+        Rob Aura
+    
+    Crate:
+        Open Aura
+        Kill Npcs
+        Break Npcs
+
+Teleport Tab:
+    Player Teleports:
+        Teleport Location
+        Teleport
+    
+    Vehicle Teleports:
+        Teleport Location
+        Teleport
+
+C4 Tab:
+    C4 Settings:
+        C4 Shape
+        Random C4 Amount
+        C4 Amount
+        Target Closest Player
+        Select Player
+
+    C4 Control:
+        Attach C4
+        Detonate C4
+        Spawn C4
+
+Script Tab:
+    Main:
+        Terminate Script
+    
+    Configs:
+        Reload Config List
+        Select Config
+        Load Config
+        Config Name
+        Save Config
+
+    Server Hop:
+        Execute On Rejoin
+        Rejoin Server
+        Use Small Servers
+        Join Random Server
